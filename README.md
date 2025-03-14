@@ -50,3 +50,10 @@ def nombreMetodo(self):
   - Puedes definir tantos atributos como necesites.
   - Puedes duefinir tantos métodos como necesites.
   - Puedes definir tantos parámetros en el constructor y en los métodos como necesites.
+
+## Composición
+- Consiste en la creación de nuevas clases a partir de otras clases ya existentes que actuan como elementos compositores de la nueva.
+- Las class existentes serán atributos de la nueva clase.
+- En POO la composición significa que entre las dos clases existe una relación del tipo "tiene un".
+- Ejemplo: 
+  - Una coordenada en dos dimensiones está compuesta por dos valores, el valor en el eje de las x y el valor en el eje de la y, ésto podria ser una clase. Un cuadrado esta compuesto por cuatro coordenadas que son los cuatro vértices, esto podria ser una clase que está compuesta por cuatro clases del objeto coordenada
